@@ -4,10 +4,43 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>JS Calculator</title>
+        <link rel="stylesheet" href="styles.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     </head>
     <body>
-        <h1>My JS Calculator!</h1>
+
+
+<div class="calculator">
+
+    
+    <div class="output">
+      <div data-previous-operand class="previous-operand"></div>
+      <div id="display" data-current-operand class="current-operand"></div>
+    </div>
+    
+    <button id="clear" data-all-clear class="span-two">AC</button>
+    <button id="delete" data-delete>DEL</button>
+    <button id="divide" data-operation>÷</button>
+    <button id="one" data-number>1</button>
+    <button id="two" data-number>2</button>
+    <button id="three" data-number>3</button>
+    <button id="multiply" data-operation>*</button>
+    <button id="four" data-number>4</button>
+    <button id="five" data-number>5</button>
+    <button id="six" data-number>6</button>
+    <button id="add" data-operation>+</button>
+    <button id="seven" data-number>7</button>
+    <button id="eight" data-number>8</button>
+    <button id="nine" data-number>9</button>
+    <button id="subtract" data-operation>-</button>
+    <button id="decimal" data-number>.</button>
+    <button id="zero" data-number>0</button>
+    <button id="equals" data-equals class="span-two">=</button>
+ </div>
+
+
+        <script src="calculator.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     </body>
 </html>
